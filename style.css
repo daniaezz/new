@@ -92,20 +92,25 @@ a{
   color: white;
 }
 .img1{
-  display: block;
+  display: grid;
 }
 
 .img2{
   display: none;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 700px){
 .img1{
   display: none;
 }
 
 .img2{
-  display: block;
+  display: flex;
+  flex:1;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  position: relative;
 }
 
 .hButt{
@@ -113,5 +118,36 @@ a{
 }
 .head{
   font-size: 10pt;
+  /* position: fixed; */
+}
+
+.bottom{
+  width: 100vw;
+  bottom: 0;
+  position: absolute;
+}
+.everything{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+}
+
+.middle{
+  position: absolute;
+  align-self: center;
+  margin-left: 100px;
+  width: 50vw;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  text-align: center;
+  /* size:10%; */
+}
+.t{
+  margin-top: 120px;
 }
 }
