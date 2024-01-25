@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>dania ezz</title>
+
+    <script src="p5.min.js" defer></script>
+<script src='p5-wrapper.js' defer></script>
+<script src="jquery_3.6.0.js" defer></script>
+    <!-- <script type="text/javascript" src = "script.js"></script> -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+  </head>
+  <body>
+<div class="everything">
+
+<div class="head">
+<div class="left">
+  <div class="hButt">
+    <a href="index.html">info</a>
+  </div>
+  <div class="hButt">
+
+    <a href="index.html">projects</a>
+  </div>
+  <div class="hButt">
+
+    <a href="index.html">experiments</a>
+  </div>
+</div>
+<div class="right">
+  <div class="name hButt">
+    <a href="index.html">dania ezz</a>
+  </div>
+</div>
+
+</div>
+
+  <div class="intro">
+
+</div>
+
+<div id="text">
+  hi i am dania ezz, an interactive media student at NYU abu dhabi
+</div>
+
+<div class="projects">
+projects
+</div>
+<script src="https://unpkg.com/hydra-synth"></script>
+   <script>
+     window.onload = function() {
+       const hydra = new Hydra({
+         detectAudio: false,
+         enableStreamCapture: false,
+         width: window.innerWidth,
+         height: window.innerHeight,
+         // position: absolute,
+       });
+
+      p5 = new P5()
+       shape(2, 0.001, ()=>p5.mouseX/p5.width/2+0.01).modulateScrollY(noise(()=> 1*4,0.2).scale(3*0.8,1,5)).blend(o0, 0.3).mult(osc(10, 0.1, 1).color(3.5, 3.0, 3.0)).blend(o0).blend(o0, 0.7).out(o0)
+       // osc(200,.01,1).rotate(1).layer(osc(30,0,1).luma(0.2,.2).color(0,0,0,1)).layer(osc(30,0,1).luma(0.5,0.1)).modulate(noise(3,.1)).out();
+       var projectsButton = document.getElementById('projects');
+       var resumeButton = document.getElementById('resume');
+
+
+     }
+   </script>
+
+</div>
+  </body>
+</html>

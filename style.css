@@ -1,0 +1,93 @@
+body{
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  align-items: center;
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  color: white;
+  font-family: Inter, sans-serif;
+}
+
+.everything{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  position: fixed;
+}
+
+.head{
+  width: 100vw;
+  height: 10vh;
+  position: absolute;
+  top:0;
+  display: flex;
+  font-size: 14pt;
+}
+
+.hButt{
+  margin: 2.5em;
+}
+.left{
+  flex:1;
+  display: inline-flex;
+  width: 50vw;
+  position: absolute;
+}
+.right{
+  flex:1;
+  display: inline-flex;
+  width: 50vw;
+  position: absolute;
+  right: 0;
+  justify-content: right;
+}
+
+.name{
+  text-align: right;
+  /* font-variant: 500; */
+  /* font-style: bold; */
+}
+
+.intro{
+  font-size: 26pt;
+  padding:1.5em;
+  position: fixed;
+  width: 50vw;
+  height: 10vh;
+  background-color: black;
+  opacity: 0.15;
+}
+
+#text{
+  color: white;
+  /* font-weight: bold; */
+  opacity: 1;
+  font-size: 26pt;
+  padding:1.5em;
+  position: fixed;
+  width: 50vw;
+  height: 10vh;
+  /* z-index: -; */
+}
+
+.projects{
+
+}
+
+.bee{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  z-index: -1;
+}
+
+a{
+  text-decoration: none;
+  color: white;
+}
