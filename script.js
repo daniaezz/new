@@ -232,7 +232,7 @@ third.draw=()=> {
   third.rect(third.width / 4+xinc, third.height - third.height / 5+yinc, 10, 35, 20, 20, 20, 20);
   third.rect(third.width - third.width / 4+xinc, third.height - third.height / 5+yinc, 10, 35, 20, 20, 20, 20);
 }
-third.stroke("#c1272d");
+// third.stroke("#c1272d");
 third.strokeWeight(3);
 third.noFill();
 third.rect(0, 0, third.width, third.height);
