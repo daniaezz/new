@@ -3,12 +3,12 @@ body{
   padding: 0;
   display: flex;
   justify-content: center;
-  background-color: #000;
+  background-color: #FFF;
   align-items: center;
   width: 100vw;
   height: 100vh;
   position: absolute;
-  color: white;
+  color: #c1272d;
   font-family: Inter, sans-serif;
 }
 
@@ -19,22 +19,26 @@ body{
   align-items: center;
   justify-content: left;
   position: fixed;
+  /* margin: 1em; */
 }
 
 .head{
   width: 100vw;
-  height: 10vh;
+  height: 5vh;
   position: absolute;
   top:0;
   display: flex;
-  font-size: 14pt;
+  font-size: 15pt;
+  align-items: center;
+  margin-top: 1.2em;
 }
 
 .hButt{
   margin: 2.5em;
 }
 .left{
-  flex:1;
+  /* flex:1;   */
+  display: flex;
   display: inline-flex;
   width: 50vw;
   position: absolute;
@@ -46,10 +50,14 @@ body{
   position: absolute;
   right: 0;
   justify-content: right;
+  /* padding-right: 1.5em; */
 }
 
 .name{
   text-align: right;
+  font-weight:800;
+  font-size: 20pt;
+  margin: 1.7em;
   /* font-variant: 500; */
   /* font-style: bold; */
 }
@@ -65,8 +73,68 @@ body{
   top:0;
 }
 
+#long{
+  width:350px;
+  height:600px;
+  margin: 2.5em;
+  /* right:0; */
+  /* padding-right: 1em; */
+  /* background-color: red; */
+}
+.smallp5{
+  display: grid;
+  height:650px;
+  margin-top:2.5em;
+  width:400px;
+  /* grid-row:  */
+  /* row-gap: 1em; */
+}
+
+.mainT{
+  /* align-self: flex-end; */
+}
+.hi{
+  width:100;
+  font-weight:800;
+  font-size: 50pt;
+}
+
+.hiText{
+  font-size: 20pt;
+  font-weight: 300;
+}
+
+.mainBody{
+  margin: 2.5em;
+  top: 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-end;
+  flex-direction: column;
+  height: 85vh;
+  /* align-items: baseline; */
+  /* text-align:  */
+  /* justify-content: flex-end; */
+  /* align-items: baseline; */
+}
+#catto{
+  margin-top: 2.5em;
+  /* border-color: #c1272d; */
+  /* border-width:  50px; */
+  /* background-color: #c1272d; */
+  /* bottom:0; */
+}
+#short{
+  padding-top: 0.3em;
+  width:300px;
+  height:300px;
+  padding-bottom: 0.7em;
+  border-color: #c1272d;
+
+  /* margin: 1em; */
+}
 #text{
-  color: white;
+  color: #c1272d;
   /* font-family: "Cormorant Garamond", serif; */
   /* font-weight: bold; */
   opacity: 1;
@@ -80,7 +148,7 @@ body{
 }
 
 .rest{
-  background-color: black;
+  background-color: white;
   position:fixed;
   width:100vw;
   height: 20vh;
@@ -101,7 +169,7 @@ body{
 
 a{
   text-decoration: none;
-  color: white;
+  color: #c1272d;
 }
 .img1{
   display: grid;
